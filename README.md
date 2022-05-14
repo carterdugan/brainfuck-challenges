@@ -29,13 +29,13 @@ would be a lot of fun.
 
 It is worth noting that I have minimal experience in writing
 brainfuck code. The little research I have done on existing
-brainfuck programs has shown the most people have fine-tuned
+brainfuck programs has shown that most people have fine-tuned
 their projects to be efficient and clever. While I believe that
 is a good thing to do, I think it would be beneficial to learn
-these tricks as I go and I will not be improving the challenges
+these tricks as I go. I will not be improving the challenges
 after I complete them in order to make the learning process
 accesible to anyone else who might be idiotic enough to follow
-in my footsteps in this stupid journey.
+in my footsteps through this stupid journey.
 
 # Table of Contents
 
