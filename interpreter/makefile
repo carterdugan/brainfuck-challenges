@@ -1,6 +1,6 @@
 
 all:
-	gcc bfcomp.c -o bfcomp
+	gcc bfrun.c -o bfrun
 
 clean:
-	rm -f bfcomp
+	rm -f bfrun
