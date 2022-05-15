@@ -40,4 +40,4 @@ in my footsteps through this stupid journey.
 # YouTube
 
 * [The interpreter and Hello World](https://youtu.be/RZDT8hPI8wA)
-* The Square
+* [The Square](https://youtu.be/vLV0LwuoXcM)
