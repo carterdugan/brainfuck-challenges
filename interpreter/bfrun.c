@@ -108,5 +108,7 @@ int main(int argc, char** argv) {
 		}
 	}
 
+	free(code);
+	
 	return 0;
 }
