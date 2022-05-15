@@ -37,9 +37,8 @@ after I complete them in order to make the learning process
 accesible to anyone else who might be idiotic enough to follow
 in my footsteps through this stupid journey.
 
-# Table of Contents
+# YouTube
 
-* The interpreter
-* Hello World
+* [The interpreter and Hello World](https://youtu.be/RZDT8hPI8wA)
 * Adding two numbers
 * The Square
