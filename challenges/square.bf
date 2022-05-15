@@ -1,12 +1,8 @@
-[
-Plus sign: ++++[>++++++++++<-]>+++.
-Spaces: +++[>++++++++++<-]>++.
-LF: ++++++++++.
-]
-
+Get input, copy to next three cells
 ,
 [>+>+>+<<<-] > [
 
+    Print pluses and spaces
     > [
 
         >>++++[>++++++++++<-]>+++.[-]<
@@ -14,8 +10,10 @@ LF: ++++++++++.
 
     ]
 
+    Print line feed
     >>>++++++++++.[-]
 
+    Copy dimension back to original 3 cells
     <<[>+<-]>[<+<+>>-]<<<-
 
 ]
