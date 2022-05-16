@@ -9,9 +9,7 @@ bool valid(char c) {
 	char* valid_characters = "<>,.[]+-";
 	char* current;
 	for(current = valid_characters; *current != '\0'; current++) {
-		if(c == *current) {
-			return true;
-		}
+		if(c == *current) {return true;}
 	}
 	return false;
 }
