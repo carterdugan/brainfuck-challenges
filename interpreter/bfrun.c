@@ -5,6 +5,8 @@
 
 #define MEM_SIZE 30000
 
+/* Assure that instruction is valid, if not it
+is a comment */
 bool valid(char c) {
 	char* valid_characters = "<>,.[]+-";
 	char* current;
@@ -18,7 +20,7 @@ int main(int argc, char** argv) {
 
 	bool integer_option = false;
 
-	if(argc < 2 || argc > 3) {
+	if(argc < 2 || argc > 4) {
 		printf("Usage: bfrun [output_option] <file>\n");
 		return -1;
 	}
@@ -58,10 +60,10 @@ int main(int argc, char** argv) {
 	code[index + 1] = '\0';
 	fclose(fp);
 
-	unsigned char arr[MEM_SIZE] = {0};
+	int arr[MEM_SIZE] = {0};
 
 	char* instruction;
-	unsigned char* memory_pointer = arr;
+	int* memory_pointer = arr;
 	int open_loop = 0;
 	int close_loop = 0;
 	for(instruction = code; *instruction != '\0'; instruction++) {
@@ -83,7 +85,7 @@ int main(int argc, char** argv) {
 				else {printf("%c", *memory_pointer);}
 				break;
 			case ',':
-				scanf("%hhd", memory_pointer);
+				scanf("%d", memory_pointer);
 				break;
 			case '[':
 				if(!*memory_pointer) {open_loop = 1;}
