@@ -1,4 +1,4 @@
-Get input, copy to next three cells
+Get input copy to next three cells
 ,
 [>+>+>+<<<-] > [
 
